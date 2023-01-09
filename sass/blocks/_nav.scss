@@ -1,0 +1,47 @@
+.nav {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 75px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__connect{
+        
+        a {
+            display: block;
+            text-align: right;
+
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1;
+
+            color: #000000;
+
+        }
+        p {
+            display: block;
+            margin-top: 10px;
+            text-align: right;
+
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1;
+
+            text-transform: uppercase;
+
+            color: #000000;
+        }
+    }
+} 
