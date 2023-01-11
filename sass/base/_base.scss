@@ -9,8 +9,10 @@ body {
 	flex-direction: column; /* sticky footer */
 
 	font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6875;
+    
+    color: #000000;
 
     text-rendering: optimizeSpeed;
     //text-rendering: optimizeLegibility;
@@ -55,7 +57,7 @@ section {
 
 .visually-hidden {
     opacity: 0;
-    visibility: hidden;
+    visibility:     hidden;
     width: 0px;
     height: 0px;
     display: block;

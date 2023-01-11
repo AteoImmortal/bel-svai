@@ -1,15 +1,16 @@
 .header {
-    height: 700px;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
     background: #F6F6F6;
 
+    .container {
+        margin-top: 67px;
+        margin-bottom: -67px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     &__content {
-
-
         width: 450px;
         display: flex;
         flex-direction: column;
@@ -37,6 +38,4 @@
 
         color: #000000;
     }
-
-
 }
