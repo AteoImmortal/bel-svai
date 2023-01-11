@@ -1,6 +1,6 @@
 .about-us{
-    margin-top: 110px;
-    margin-bottom: 112px;
+    padding-top: 110px;
+    padding-bottom: 112px;
 
     .container{
         display: flex;
@@ -8,11 +8,10 @@
     }
 
     &__right{
-        width: 420px;
+        width: 440px;
 
-        span{
-            color: #EFBD2E;
-        }
+        display: flex;
+        align-items: flex-end;
     }
 
     &__blocks{
@@ -32,9 +31,10 @@
     }
 
     &__left{
-        width: 440px;
+        width: 420px;
 
-        display: flex;
-        align-items: flex-end;
+        span{
+            color: #EFBD2E;
+        }
     }
 }

@@ -1,0 +1,43 @@
+.guarantees{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    background: #F6F6F6;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__left{
+        margin-bottom: -155px;
+        
+        img{
+            margin-top: 150px;
+        }
+    }
+
+    &__blocks{
+        width: 600px;
+
+        display: flex;
+
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    &__block{
+        width: 285px;
+        b{
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        p{
+            display: block;
+            line-height: 1.4;
+
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
