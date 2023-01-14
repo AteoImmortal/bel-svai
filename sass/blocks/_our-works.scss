@@ -1,0 +1,35 @@
+.our-works{
+    padding-top: 110px;
+    padding-bottom: 120px;
+    
+    z-index: 0;
+    background: #ffffff;
+
+    &__slider-wrapper{
+        margin-top: 35px;
+    }
+
+    &__slider-line{
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    &__slider{
+        // position: absolute;
+        width: 300px;
+        height: 175px;
+        margin-top: 40px;
+        
+        overflow: hidden;
+
+        border: 20px solid #d0d0d056;
+        border-radius: 25%;
+    }
+
+    &__slider--active{
+
+        // width: 1000px;
+    }
+
+}
