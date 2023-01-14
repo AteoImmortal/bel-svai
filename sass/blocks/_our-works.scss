@@ -5,6 +5,11 @@
     z-index: 0;
     background: #ffffff;
 
+    &__title{
+        display: block;
+        text-align: center;
+    }
+
     &__slider-wrapper{
         margin-top: 35px;
     }
@@ -12,13 +17,12 @@
     &__slider-line{
         display: flex;
         justify-content: center;
+        align-items: center;
         column-gap: 20px;
     }
 
     &__slider{
-        // position: absolute;
         width: 300px;
-        height: 175px;
         margin-top: 40px;
         
         overflow: hidden;
@@ -29,7 +33,7 @@
 
     &__slider--active{
 
-        // width: 1000px;
+        width: 1000px;
     }
 
 }

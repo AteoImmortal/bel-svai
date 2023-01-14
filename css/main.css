@@ -156,7 +156,7 @@ legend {
 h1 {
   margin-bottom: 40px;
   font-weight: 700;
-  font-size: 75px;
+  font-size: 58px;
   line-height: 1;
 }
 
@@ -170,6 +170,19 @@ h3 {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
+}
+
+.gradient {
+  background-repeat: no-repeat;
+  background-position: center bottom 12px;
+  background-size: 100% 12px;
+  background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+}
+.gradient-2 {
+  background-repeat: no-repeat;
+  background-position: center bottom 8px;
+  background-size: 100% 7px;
+  background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
 }
 
 .nav {
@@ -330,6 +343,10 @@ h3 {
   z-index: 0;
   background: #ffffff;
 }
+.our-works__title {
+  display: block;
+  text-align: center;
+}
 .our-works__slider-wrapper {
   margin-top: 35px;
 }
@@ -338,22 +355,88 @@ h3 {
   display: flex;
   -webkit-box-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   -webkit-column-gap: 20px;
           column-gap: 20px;
 }
 .our-works__slider {
   width: 300px;
-  height: 175px;
   margin-top: 40px;
   overflow: hidden;
   border: 20px solid #d0d0d056;
   border-radius: 25%;
 }
+.our-works__slider--active {
+  width: 1000px;
+}
 
 .contact {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  overflow: hidden;
   background: #F6F6F6;
+}
+.contact .container {
+  position: relative;
+}
+.contact__title {
+  display: block;
+  text-align: center;
+}
+.contact__row {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+.contact__me {
+  margin-right: 69px;
+  margin-bottom: 32px;
+}
+.contact__info {
+  display: -webkit-box;
+  display: flex;
+}
+.contact__text {
+  min-width: 110px;
+  margin-right: 85px;
+}
+.contact__name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.6;
+}
+.contact__left a {
+  font-size: 22px;
+  line-height: 1.3;
+  color: #1A71D2;
+}
+.contact__soc {
+  display: -webkit-box;
+  display: flex;
+  gap: 20px;
+}
+.contact__soc-item img {
+  width: 48px;
+  height: 48px;
+}
+.contact__right {
+  width: 538px;
+}
+.contact__right p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.contact__img {
+  position: absolute;
+  top: 18.5px;
+  right: -90.5px;
+}
+.contact__copyright {
+  border-top: 1px solid #E0E0E0;
 }
 .contact__copyright p {
   font-weight: 400;

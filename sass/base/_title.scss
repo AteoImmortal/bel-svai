@@ -2,8 +2,9 @@ h1{
     margin-bottom: 40px;
 
     font-weight: 700;
-    font-size: 75px;
+    font-size: 58px;
     line-height: 1;
+
 };
 
 h2{
@@ -18,14 +19,27 @@ h3{
     line-height: 1.2;
 };
 
+.gradient {
+    background-repeat: no-repeat;
+    background-position: center bottom 12px;
+    background-size: 100% 12px;
+    background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+
+    &-2 {
+        background-repeat: no-repeat;
+        background-position: center bottom 8px;
+        background-size: 100% 7px;
+        background-image: linear-gradient(to right, #FBDC4D, #FBDC4D);
+    }
+}
 // h4{
-
-// };
-
-// h5{
-
-// };
-
-// h6{
-
-// };
+    
+    // };
+    
+    // h5{
+        
+        // };
+        
+        // h6{
+            
+            // };

@@ -1,10 +1,88 @@
 .contact {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 70px;
+    padding-bottom: 90px;
 
+    overflow: hidden;
     background: #F6F6F6;
 
+    .container {
+        position: relative;
+    }
+
+    &__title{
+        display: block;
+        text-align: center;
+    }
+
+    &__row {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__me {
+        margin-right: 69px;
+        margin-bottom: 32px;
+    }
+
+    &__info {
+        display: flex;
+    }
+
+    &__text {
+        min-width: 110px;
+        margin-right: 85px;
+    }
+
+    &__name {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 1.6;
+    }
+
+    &__left{
+        a{
+            font-size: 22px;
+            line-height: 1.3;
+            color: #1A71D2;
+        }
+    }
+
+    &__soc{
+        display: flex;
+        gap: 20px;
+
+        &-item{
+            img{
+                width: 48px;
+                height: 48px;
+            }
+        }
+    }
+
+    &__right {
+        width: 538px;
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    }
+
+
+    &__img {
+        position: absolute;
+        top: 18.5px;
+        right: -90.5px;
+    }
+
+
+
+
+
+
     &__copyright{
+        border-top: 1px solid #E0E0E0;
         p{
             font-weight: 400;
             font-size: 12px;
