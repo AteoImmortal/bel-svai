@@ -18,6 +18,31 @@
         }
     }
 
+    img{
+        z-index: 1;
+        line-height: 72px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        animation: img 2s infinite;
+    }
+    
+    @keyframes img {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+        50% {
+            transform: scale3d(0.95, 0.95, 0.95);
+        }
+        100% {
+            transform: scale3d(1, 1, 1);
+        }
+
+    }
+
     &__blocks{
         width: 600px;
 
