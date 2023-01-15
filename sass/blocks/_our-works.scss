@@ -1,9 +1,9 @@
 .our-works{
-    padding-top: 110px;
+    padding-top: 80px;
     padding-bottom: 120px;
     
     z-index: 0;
-    background: #ffffff;
+    background: #ededed;
 
     &__title{
         display: block;
@@ -12,28 +12,53 @@
 
     &__slider-wrapper{
         margin-top: 35px;
+
+        display: flex;
+        align-items: center;
     }
 
-    &__slider-line{
+    &__slider-box{
         display: flex;
         justify-content: center;
         align-items: center;
         column-gap: 20px;
     }
 
-    &__slider{
-        width: 300px;
+    &__slider img{
+        width: 1000px;
+        height: 450px;
         margin-top: 40px;
         
         overflow: hidden;
 
-        border: 20px solid #d0d0d056;
+        border: 20px solid #93938856;
         border-radius: 25%;
     }
 
-    &__slider--active{
+    &__left{
+        width: 96px;
+        height: 96px;
 
-        width: 1000px;
+        margin-right: 40px;
+
+        &:hover{
+            transform: scale(1.1);
+            transition: transform 0.3s, opacity 0.5s;
+            opacity: 0.8;
+        }
+    }
+
+    &__right{
+        width: 96px;
+        height: 96px;
+
+        margin-left: 40px;
+
+        &:hover{
+            transform: scale(1.1);
+            transition: transform 0.3s, opacity 0.5s;
+            opacity: 0.8;
+        }
     }
 
 }

@@ -9,9 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- Фавиконки -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="./css/main.css">
 
-    <title>Свайно винтовой фундамент</title>
+    <title>Свайно-Винтовой Фундамент</title>
 </head>
 <body>
     <nav class="nav" id="nav">
@@ -29,7 +40,7 @@
             <p> C 08.00-20.00</p>
         </article>
     </nav>
-
+ 
     <header class="header " id="header">
 
         <article class="container">
@@ -105,13 +116,14 @@
 
 
             <section class="our-works__slider-wrapper">
-                <section class="our-works__slider-line">
+                <img class="our-works__left" src="./img/our-works/left-arrow.png" alt="left-arrow" id="btnBack">
+                <section class="our-works__slider-box" id="sliderBox">
 
                     <article class="our-works__slider">
                         <img src="./img/our-works/photo-1.jpg" alt="">
                     </article>
 
-                    <article class="our-works__slider our-works__slider--active">
+                    <article class="our-works__slider">
                         <img src="./img/our-works/photo-2.jpg" alt="">
                     </article>
 
@@ -119,14 +131,24 @@
                         <img src="./img/our-works/photo-3.jpg" alt="">
                     </article>
 
-                    <article class="our-works__slider none">
+                    <article class="our-works__slider">
                         <img src="./img/our-works/photo-4.jpg" alt="">
                     </article>
 
-                    <article class="our-works__slider none">
+                    <article class="our-works__slider">
                         <img src="./img/our-works/photo-5.jpg" alt="">
                     </article>
+
+                    <article class="our-works__slider">
+                        <img src="./img/our-works/photo-6.jpg" alt="">
+                    </article>
+
+                    <article class="our-works__slider">
+                        <img src="./img/our-works/photo-7.jpg" alt="">
+                    </article>
                 </section>
+                <img class="our-works__right" src="./img/our-works/right-arrow.png" alt="right-arrow" id="btnNext">
+
             </section>
 
 
@@ -180,5 +202,6 @@
         </article>
     </section>
 
+    <script src="./js/main.js"></script>
 </body>
 </html>
